@@ -1,0 +1,25 @@
+.measurement-label {
+    background-color: white;
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid #666;
+    pointer-events: none;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+}
+
+.measurement-line {
+    stroke: #666;
+    stroke-width: 2px;
+    stroke-dasharray: 5;
+    pointer-events: none;
+}
+
+.measurement-endpoint {
+    fill: white;
+    stroke: #666;
+    stroke-width: 2px;
+    pointer-events: none;
+}
